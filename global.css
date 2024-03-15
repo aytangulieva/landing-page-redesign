@@ -170,10 +170,9 @@ body {
       }
     }
     .right {
-      margin-top: 138px;
+      margin: 138px 150px 0 0;
       width: 250px;
       height: 207px;
-      margin-right: 150px;
     }
     .p-03 {
       margin-bottom: 95px;
@@ -345,8 +344,7 @@ body {
   }
   .content2 {
     display: flex;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin: 50px 0 0 100px;
 
     .text-container {
       h1 {
@@ -374,5 +372,80 @@ body {
   .get-started-button {
     margin-left: 0;
     margin-top: 50px;
+  }
+  .footer {
+    width: 1261px;
+    height: 214px;
+    .navline {
+      height: 190px;
+      background-color: rgba(61, 93, 121, 1);
+      margin-top: 20px;
+      display: flex;
+      border: 1px solid rgba(194, 209, 217, 1);
+
+      h2 {
+        color: rgba(255, 255, 255, 1);
+        margin-left: 70px;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 700;
+      }
+
+      .product,
+      .information,
+      .be-social {
+        width: 140px;
+        height: 135px;
+        margin-top: 13px;
+        margin-left: 150px;
+
+        ul,
+        li,
+        a {
+          font-family: "Ubuntu", sans-serif;
+          color: rgba(204, 204, 204, 1);
+          font-weight: 400;
+          font-size: 13px;
+          text-decoration: none;
+          list-style-type: none;
+          line-height: 24px;
+        }
+        ul {
+          font-weight: 500;
+          color: rgba(255, 255, 255, 1);
+          margin-left: -120px;
+        }
+      }
+      .information {
+        margin-left: 90px;
+        ul {
+          margin-right: -30px;
+        }
+      }
+      .be-social {
+        margin-left: 230px;
+      }
+    }
+    .footer-line {
+      height: 9px;
+      background-color: rgba(61, 93, 121, 1);
+      padding-bottom: 24px;
+      font-family: "Ubuntu", sans-serif;
+      border: 1px solid rgba(194, 209, 217, 1);
+      color: rgba(255, 255, 255, 1);
+      font-size: 13px;
+      display: flex;
+      justify-content: space-around;
+      p {
+        flex-grow: 10;
+        margin-left: 40px;
+      }
+
+      a {
+        color: rgba(255, 255, 255, 1);
+        text-decoration: none;
+        flex-grow: 1;
+        padding-top: 10px;
+      }
+    }
   }
 }
